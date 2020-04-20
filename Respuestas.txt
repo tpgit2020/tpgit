@@ -1,0 +1,13 @@
+5 
+a)
+b) El repositorio local debe estar conectado al remoto, 
+tener la ultima version del repositorio remoto
+agregar los cambios en el repositorio local,
+realizar un commit con lo realizado, 
+
+c)
+
+6) se crea una nueva rama y se mueve el head a la nueva rama
+
+9a) 
+b)
