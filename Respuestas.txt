@@ -1,11 +1,16 @@
 5 
-a)
+a)no ocurrio nada porque clone la ultima version,
+pero en caso de haber conflicto abria que hacer un 
+git fetch origin  , y un git merge origin/master tiraria error en el codigo modificado
+y se tendra que elegir que codigo mantener, luego el otro compañero tendra que actualizar
+su repositorio y poner sus cambios
 b) El repositorio local debe estar conectado al remoto, 
 tener la ultima version del repositorio remoto
 agregar los cambios en el repositorio local,
 realizar un commit con lo realizado, 
 
-c)
+c)poseer la ultima version,ya sea con un git clone, o un git fetch origin con
+ un git merge origin/master
 
 6) se crea una nueva rama y se mueve el head a la nueva rama
 
