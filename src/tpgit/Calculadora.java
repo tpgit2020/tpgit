@@ -4,6 +4,41 @@ import java.util.Scanner;
 
 public class Calculadora {
 	
+	
+public static void multiplicar(Integer a, Integer b)
+{ Integer resultado;
+	 resultado = a * b;
+		System.out.println("El resultado es " + resultado.toString());
+	
+
+}
+public static void restar(Integer a, Integer b)
+{
+	Integer resultado;
+	 resultado = a - b;
+		System.out.println("El resultado es " + resultado.toString());
+
+}
+public static void sumar(Integer a, Integer b)
+{
+	
+	Integer resultado;
+	 resultado = a + b;
+		System.out.println("El resultado es " + resultado.toString());
+	
+
+}
+public static void dividir(Integer a, Integer b)
+{
+	Integer resultado;
+	 resultado = a / b;
+		System.out.println("El resultado es " + resultado.toString());
+
+}
+
+
+
+
 
     public static void main(String[] args) {       
     	Integer a;  
@@ -28,23 +63,17 @@ public class Calculadora {
            
            
    		switch(opcion){
- 		case 1: resultado = a * b;
-		System.out.println("El resultado es " + resultado.toString());
- 	
+ 		case 1: 
+ 			multiplicar(a,b);
  			break;
  		case 2:
- 			resultado = a - b;
- 	 		System.out.println("El resultado es " + resultado.toString());
+ 	restar(a,b);
  			break;
  		case 3:		
- 			resultado = a + b;
- 	 		System.out.println("El resultado es " + resultado.toString());
-	
+ 			sumar(a,b);
  		break;
  		case 4:
- 			resultado = a / b;
-
-           System.out.println("El resultado es " + resultado.toString()); 
+ 			dividir(a,b);
            } 
    		}
     }
