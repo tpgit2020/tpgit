@@ -10,11 +10,14 @@ public class Calculadora {
     	Integer b; 
     	Integer opcion;    
     	Integer resultado;  
-    	 Scanner teclado = new Scanner(System.in);
+    	Scanner teclado = new Scanner(System.in);
     	do{ 
     		System.out.println("Ingrese su operación /n 1 para multiplicarr /n 2 para restar /n 3 para sumar /n 4 para dividir");         
     		opcion = teclado.nextInt();     
-    		}
+    		
+    	
+    	}
+    	
     	while(opcion < 1 && opcion > 4);
     	
 
