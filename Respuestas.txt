@@ -14,5 +14,7 @@ c)poseer la ultima version,ya sea con un git clone, o un git fetch origin con
 
 6) se crea una nueva rama y se mueve el head a la nueva rama
 
-9a) 
-b)
+9a) Los cambios subidos en otra rama hay que mergearlos para que la rama principal obtenga
+los nuevos cambios y despues realizar un commit que diga que ramas se mergearon
+	
+b) 
